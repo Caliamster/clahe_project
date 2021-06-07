@@ -1,0 +1,1 @@
+g++ clahe.cpp -o clahe -std=c++11 `pkg-config --cflags --libs opencv` ; ./clahe lena.bmp
